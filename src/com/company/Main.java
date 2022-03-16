@@ -38,7 +38,7 @@ public class Main {
         System.out.println("Устанавливаем элемент cо значением 86 на позицию 0  - " + List);
         System.out.println("--------------------------------------------------");
 
-        System.out.println("Проверка на пустоту: " + List.isEmpty());
+        System.out.println("Проверка на пустоту списка: " + List.isEmpty());
 
         System.out.println("--------------------------------------------------");
 
@@ -56,7 +56,8 @@ public class Main {
         System.out.println("Метод toString: " + Arrays.toString(arr));
         System.out.println("--------------------------------------------------");
         List.clear();
-        System.out.println("Проверка на пустоту после метода clear(): " + List.isEmpty() + "\n");
+        System.out.println("Проверка на пустоту списка после метода clear(): " + List.isEmpty());
+        System.out.println("Пустой список - " +  List);
     }
 }
 
